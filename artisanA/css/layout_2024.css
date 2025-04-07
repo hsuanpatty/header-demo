@@ -286,9 +286,6 @@ header#header {
   visibility: hidden;
 }
 
-.pushy-content > .pushy-submenu-open > ul {
-  visibility: hidden;
-}
 
 
 /* Menu Movement */
