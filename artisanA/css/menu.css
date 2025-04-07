@@ -59,16 +59,6 @@
     position: relative; /* 為偽元素定位 */
 }
 
-.sub_menu_title span:after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 50%; /* 或者使用具體的數值來微調位置 */
-    transform: translateY(-50%);
-    width: 1px;
-    height: 20px; /* 可以減小這個值來減少高度，這樣線會更短一些 */
-    background-color: #8c001a;
-}
 .sub_menu_title .no-after:after {
     width: 0px;
     height: 0px;
