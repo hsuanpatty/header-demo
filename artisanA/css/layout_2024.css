@@ -500,6 +500,7 @@ header#header {
 } */
 
 .pushy-submenu-open>ul {
+  padding-bottom: 15px;
   max-height: 1000px;
   font-size: 0.875rem;
   transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
