@@ -286,6 +286,10 @@ header#header {
   visibility: hidden;
 }
 
+.pushy-content > .pushy-submenu-open > ul {
+  visibility: hidden;
+}
+
 
 /* Menu Movement */
 
@@ -434,12 +438,12 @@ header#header {
   Submenu Icon
 } */
 
-.pushy-submenu>ul {
+.pushy-submenu > ul {
   padding: 0 15px;
   transition: max-height 0.2s ease-in-out, visibility 0.2s ease-in-out;
 }
 
-.pushy-submenu>ul .pushy-link {
+.pushy-submenu>ul > .pushy-link {
   transition: opacity 0.2s ease-in-out;
 }
 
@@ -500,8 +504,8 @@ header#header {
 
 .pushy-submenu-open>ul {
   max-height: 1000px;
-  visibility: visible;
   font-size: 0.875rem;
+  transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
 }
 
 .pushy-submenu-open .pushy-link {
