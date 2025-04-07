@@ -455,7 +455,7 @@ white-space: nowrap;
 }
 
 /*   iphone  */
-.pushy-link{
+.pushy-p{
     padding: 0 5px ;
     margin-bottom: 10px;
 }
@@ -473,6 +473,7 @@ white-space: nowrap;
     font-size: 14px;
     font-weight: 700;
 }
+
 
 .pushy-link li > a:hover{
     background: #3f0505;
