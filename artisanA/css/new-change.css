@@ -465,7 +465,7 @@ white-space: nowrap;
     background: #ce2222;
     border-radius: 5px;
     padding: 8px 4px;
-    margin: 3px;
+    margin: 6px 3px 3px;
     text-align: center;
 }
 
@@ -672,7 +672,7 @@ white-space: nowrap;
     .user-px {
         font-size: 16px;
         text-align: center;
-        padding: 20px 25px 10px;
+        padding: 20px 25px 15px 20px;
     }
 
     .fa-user{
