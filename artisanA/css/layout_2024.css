@@ -1232,6 +1232,11 @@ ul.footer-social li a img {
   .contact-box p span {
     letter-spacing: 0.15rem;
   }
+
+  #logo {
+    left: 12px;
+  }
+
   /*
     .contact-box p:nth-of-type(2):before {
         content: "　　 ";
