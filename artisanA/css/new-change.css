@@ -703,6 +703,10 @@ white-space: nowrap;
     .main-banner{
         padding-top: 110px;
     }
+
+    .card ul li {
+        width: 70px;
+    }
 }
 
 
@@ -753,6 +757,10 @@ white-space: nowrap;
 
     .menu-pc .add-high {
         height: 40px;
+    }
+
+    .card ul li {
+        width: 62px;
     }
 }
 
