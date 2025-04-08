@@ -560,9 +560,9 @@ header#header {
     margin-left: auto;
   }
 
-  /* .menu-btn-font {
-    margin-bottom: 10px;
-  } */
+  .menu-btn-font {
+    margin-bottom: -2px;
+  }
 }
 
 .pushy-title {
