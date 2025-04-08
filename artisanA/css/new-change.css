@@ -556,7 +556,7 @@ white-space: nowrap;
         width: 98vw;
     }
     .nav-container{
-        width: 100vw;
+        width: 50vw;
     }
 
     .pr-3 {
@@ -667,10 +667,6 @@ white-space: nowrap;
         padding: 5px 0;
     }
 
-    .nav_wrap{
-        justify-content: end;
-    }
-
     .main-banner{
         padding-top: 110px;
     }
@@ -720,10 +716,6 @@ white-space: nowrap;
 
     #top-menu {
         padding: 5px 0 4px;
-    }
-
-    .nav_wrap{
-        justify-content: center;
     }
 
     .menu-pc .add-high {
