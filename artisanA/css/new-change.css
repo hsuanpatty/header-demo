@@ -544,16 +544,12 @@ white-space: nowrap;
 		font-size: 14px;
 	}
 
-    .sub_menu_list_w {
-        width: auto;
-    }
-
     .w-60, .sub_menu_w {
         width: 80%;
     }
 
     .w-71{
-        width: 80%;
+        width: 95%;
     }
     
 }
@@ -697,8 +693,34 @@ white-space: nowrap;
     .card ul li {
         width: 70px;
     }
+
+    .w-71{
+        width: 98%;
+    }
+    
 }
 
+
+@media (max-width: 1024.98px) { 
+    .nav_box .sub_menu .sub_menu_box:first-child .sub_sub_menu_wrap.active {
+        min-height: 410px;
+        overflow-y: auto;
+    }
+
+    .sub_sub_menu_wrap .py-100 {
+        padding: 100px 0;
+    }
+
+    .sub_menu_45,
+    .sub_menu_38  {
+        height: 180px;
+    }
+
+    .sub_menu_45 .mb,
+    .sub_menu_38 .mb {
+        margin-bottom: 50px;
+    }
+}
 
 @media (max-width: 991.98px) { 
     .nav_box {
