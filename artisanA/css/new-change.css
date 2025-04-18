@@ -611,8 +611,8 @@ white-space: nowrap;
          width: 45%;
     }
 
-    .sub_menu_38{
-        width: 38%;
+    .sub_menu_37{
+        width: 37%;
    }
 
     .sub_menu_title.sub_menu_title_open + .sub_sub_menu_wrap .sub_menu_list li {
@@ -712,12 +712,12 @@ white-space: nowrap;
     }
 
     .sub_menu_45,
-    .sub_menu_38  {
+    .sub_menu_37  {
         height: 180px;
     }
 
     .sub_menu_45 .mb,
-    .sub_menu_38 .mb {
+    .sub_menu_37 .mb {
         margin-bottom: 50px;
     }
 }
