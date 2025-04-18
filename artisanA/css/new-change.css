@@ -472,7 +472,7 @@ white-space: nowrap;
 
 .w-60,
 .sub_menu_w{
-    width: 60%;
+    width: 75%;
 }
 
 .w-31{
@@ -525,11 +525,17 @@ white-space: nowrap;
     .sub_menu_list_w{
         width: 19%;
     }
+
+    .w-60,
+    .sub_menu_w{
+    width: 60%;
+    }
 }
 
 
 
 /*   @media  max  */
+
 @media (max-width: 1499.98px){
     .icontext {
 		padding-left: 15px;
@@ -549,6 +555,7 @@ white-space: nowrap;
     .w-71{
         width: 80%;
     }
+    
 }
 
 @media (max-width: 1399.98px) { 
