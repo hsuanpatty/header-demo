@@ -1,2845 +1,835 @@
-<!DOCTYPE html>
+body::-webkit-scrollbar {
+    display: none;
+}
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>凱旋旅行社(巨匠旅遊)｜Artisan Tour</title>
-    <meta
-      name="Description"
-      content="【旅遊看巨匠，世界不一樣】歐洲、遊輪、紐澳、南亞、中東、美洲、非洲、海島、南亞、日本、中國、機+酒，盡心提供最符合您期待的旅遊規畫，是我們的責任。 "
-    />
-    <meta
-      name="keywords"
-      content="高人氣評價,歐洲旅遊,東歐旅遊,西歐旅遊,南歐旅遊,北歐旅遊,紐西蘭旅遊,澳洲旅遊,中東旅遊,美國旅遊,加拿大旅遊,郵輪,非洲旅遊,歐洲自由行,南亞旅遊"
-    />
-    <link
-      rel="shortcut icon"
-      href="https://www.artisan.com.tw/images/artisan.ico"
-    />
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <!-- style -->
-    <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
-    <link rel="stylesheet" type="text/css" href="./css/layout_2024.css" />
-    <link rel="stylesheet" type="text/css" href="./css/TripIntroduction.css" />
-    <link rel="stylesheet" type="text/css" href="./css/index_2022.css" />
-    <link rel="stylesheet" href="./css/menu.css" />
+.headwe-container {
+    width: 86vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
 
-    <!-- 調整 -->
-    <link rel="stylesheet" href="./css/memberArea.css" />
-    <link rel="stylesheet" href="./css/new-change.css" />
-    <link rel="stylesheet" href="./css/fonts.css" />
-    <link rel="stylesheet" href="./css/all.new.min.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700"
-    />
-  </head>
+.nav-container{
+    width: 86vw;
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative;
+}
+    
+/* 表頭 */
+.header-link{
+    background-color:rgb(255, 255, 255);
+}
 
-  <body>
-    <form method="post" action="" id="form1">
-      <script type="text/javascript">
-        //<![CDATA[
-        var theForm = document.forms["form1"];
-        if (!theForm) {
-          theForm = document.form1;
-        }
-        function __doPostBack(eventTarget, eventArgument) {
-          if (!theForm.onsubmit || theForm.onsubmit() != false) {
-            theForm.__EVENTTARGET.value = eventTarget;
-            theForm.__EVENTARGUMENT.value = eventArgument;
-            theForm.submit();
-          }
-        }
-        //]]>
-      </script>
+.nav-bg{
+    background-color: #8c001a;
+    box-shadow: rgba(99, 99, 99, 0.4) 0px 2px 8px 0px;
+}
 
-      <div class="aspNetHidden">
-        <input
-          type="hidden"
-          name="__EVENTVALIDATION"
-          id="__EVENTVALIDATION"
-          value="/wEdABkJ+wPymnvPlhOV7huNxxcmGJFKGrixhNRIBkKHiTebmJdHjsaBD0tCA6n9BB0cd7+yU0Ap1yl3DzfJB0KnmnIp0rkHEi+mkA4PV7NC/fzgTkixE8BKSD0hlfwN20rmgKvfrDAVdjbLocpLWIv+fP4MMAc1euT+9OTL3ZN5Lx7AbIdDzKZ8fTpfS2upIzElKx9bOnQFKnqDLVt2LS60TXk3vco2NXpdty870kZpf8tlQPUzCYEeidKtBUiYaqYwK6W76eup43O0XQpNaTfg6PH6ZDkiAoeOUUcz8UNmzinT2T2Rtx1EdDrbfmA1saunWbkLFU/TaCWxJFjVL8tKMkEFnTNjdTIGOXzTzcifEpru++YUOoJfnk+g45n5wyXOa/JJZan7N14vOTOpa5gD3cvCJ45H0TkFdkyS+VIJczeW3GghWYWlEQ3nAHSsDlufCUtYAGTVl3TdAKE/3wV46EOoQkkDEhjY0Gvbz3Ykn5t1KREghZBVv0boc2NaC2/zVFS1N82k7PQIfi8qeAF/PEMhvIMBV+2XBlPo4PAAeIzjFPcJgwjHeEpV0EW1QB53ZMg="
-        />
-      </div>
-      <div id="wrapper-main">
-        <!-- Header -->
-        <header id="header">
-          <div class="header-link">
-            <div class="headwe-container">
-              <div id="logo">
-                <a href="https://www.artisan.com.tw/">
-                  <picture>
-                    <source
-                      media="(max-width: 768px)"
-                      srcset="./images/logo_m.png"
-                    />
-                    <img src="./images/logo.png" alt="logo" class="logo-w" />
-                  </picture>
-                </a>
-              </div>
+.nav_wrap{
+    justify-content: center;
+}
 
-              <div id="top-menu" class="#top-menu a">
-                <div class="outer-box">
-                  <div class="social-bg social-text d-flex">
-                    <ul class="social-icon-one">
-                      <li>
-                        <a href="#"
-                          ><span class="fab fab-facebook-square"></span
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#"><span class="fab fab-instagram"></span></a>
-                      </li>
-                      <li>
-                        <a href="#"><span class="fab fab-youtube"></span></a>
-                      </li>
-                      <li>
-                        <a href="#"><span class="fab fab-line"></span></a>
-                      </li>
-                    </ul>
-                    <div class="icontext">
-                      <a
-                        href="https://b2b.artisan.com.tw/"
-                        class="title font-size-16 mb-0"
-                        ><span class="icontext-title">團員專區</span></a
-                      >
-                    </div>
-                    <div class="icontext">
-                      <a
-                        href="https://b2b.artisan.com.tw/"
-                        class="title font-size-16 mb-0"
-                        ><span class="icontext-title">同業專區</span></a
-                      >
-                    </div>
-                    <div class="icontext">
-                      <a
-                        href="https://www.artisan.com.tw/mice/index.aspx"
-                        class="title font-size-16 mb-0"
-                        ><span class="icontext-title">企業專區</span></a
-                      >
-                    </div>
-                  </div>
-                  <div class="outer-box">
-                    <ul class="drop-down-menu">
-                      <li>
-                        <a
-                          href="https://www.artisan.com.tw/olapply/mlogin.aspx"
-                          class="drop-menu"
-                          >會員專區</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+.under_line{
+    background-color: #fff;
+    height: 4px;
+}
 
-              <!-- Pushy Button -->
-              <button class="menu-btn" title="選單">
-                <span class="bars">☰ </span>
-                <span class="menu-btn-font">行程選單</span>
-              </button>
-            </div>
-          </div>
+.nav_box .under_line.active{
+    background-color: #f8ffd1;
+}
 
-          <!-- Pushy Menu -->
-          <div class="pushy pushy-right" data-focus="#first-link">
-            <div class="pushy-content pushy-bg">
-              <span class="pushy-close">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 384 512"
-                  aria-hidden="true"
-                >
-                  <path
-                    d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
-                  />
-                </svg>
-              </span>
-              <ul>
-                <li class="user-px">
-                  <a href="https://www.artisan.com.tw/olapply/mlogin.aspx"
-                    ><span class="pl-8 fa-user"></span>會員登入 / 註冊</a
-                  >
-                </li>
+.menu-pc .add-high{
+    height: 50px;
+}
 
-                <li class="pushy-title"><a href="javascript:;">國外旅遊</a></li>
+.nav-title,
+.nav_box .nav_boxtitle{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Noto Sans TC", 微軟正黑體, Arial, sans-serif;
+    letter-spacing: 0.2rem;
+    white-space: nowrap;
+}
 
-                <li class="pushy-submenu pushy-submenu-closed">
-                  <button type="button">機票．自由行</button>
-                  <ul>
-                    <li class="pushy-link">
-                      <a href="/fittrip/fittrip.aspx" class="exh-title"
-                        >國際機票．機+酒</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/2024_events/clubmed/index.aspx">Club Med</a>
-                    </li>
-                  </ul>
-                </li>
+.nav_box {
+    padding: 15px 0;
+}
 
-                <li class="pushy-submenu pushy-submenu-closed">
-                  <button type="button">中西歐</button>
-                  <ul>
-                    <li class="pushy-link">
-                      <a href="/exh/Exhibition.aspx?area_no=1" class="exh-title"
-                        >中西歐全覽</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=1&amp;no=169"
-                        >荷蘭．比利時．法國．盧森堡</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=1&amp;no=5"
-                        >英國．愛爾蘭</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=1&amp;no=3">瑞士</a>
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=1&amp;no=2">法國</a>
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=1&amp;no=6"
-                        >德國．瑞士</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=1&amp;no=9"
-                        >法國．瑞士．義大利</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=1&amp;no=7">德國</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="pushy-submenu pushy-submenu-closed">
-                  <button type="button">東歐</button>
-                  <ul>
-                    <li class="pushy-link">
-                      <a href="/exh/Exhibition.aspx?area_no=2" class="exh-title"
-                        >東歐全覽</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=2&amp;no=22"
-                        >奧地利．捷克．匈牙利．斯洛伐克</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=2&amp;no=28"
-                        >克羅埃西亞．巴爾幹半島</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=2&amp;no=27"
-                        >俄羅斯．波蘭．波羅的海</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=2&amp;no=26"
-                        >俄羅斯(庫頁島．勘察加．海嵾崴)</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="pushy-submenu pushy-submenu-closed">
-                  <button type="button">南歐</button>
-                  <ul>
-                    <li class="pushy-link">
-                      <a href="/exh/Exhibition.aspx?area_no=5" class="exh-title"
-                        >南歐全覽</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=5&amp;no=1">義大利</a>
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=5&amp;no=30">西班牙</a>
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=5&amp;no=99">葡萄牙</a>
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=5&amp;no=162">希臘</a>
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=5&amp;no=31"
-                        >西班牙．葡萄牙．摩洛哥</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=5&amp;no=182"
-                        >馬爾它．塞普路斯</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="pushy-submenu pushy-submenu-closed">
-                  <button type="button">北歐</button>
-                  <ul>
-                    <li class="pushy-link">
-                      <a href="/exh/Exhibition.aspx?area_no=6" class="exh-title"
-                        >北歐全覽</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=6&amp;no=44"
-                        >北歐．芬蘭．挪威．冰島賞極光</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=6&amp;no=41"
-                        >北歐單國．雙國</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=6&amp;no=43"
-                        >北歐五國</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=6&amp;no=42"
-                        >北歐三國．四國</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="pushy-submenu pushy-submenu-closed">
-                  <button type="button">中東</button>
-                  <ul>
-                    <li class="pushy-link">
-                      <a
-                        href="/exh/Exhibition.aspx?area_no=10"
-                        class="exh-title"
-                        >中東全覽</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=10&amp;no=164"
-                        >約旦．以色列</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=10&amp;no=65"
-                        >阿拉伯半島．伊朗</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=10&amp;no=236"
-                        >伊拉克</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=10&amp;no=161"
-                        >土耳其‧土希埃</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=10&amp;no=63">杜拜</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="pushy-submenu pushy-submenu-closed">
-                  <button type="button">美洲</button>
-                  <ul>
-                    <li class="pushy-link">
-                      <a
-                        href="/exh/Exhibition.aspx?area_no=11"
-                        class="exh-title"
-                        >美洲全覽</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=11&amp;no=101"
-                        >加拿大</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=11&amp;no=102"
-                        >美東‧美加東</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=11&amp;no=13"
-                        >遇見幸福．極光</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=11&amp;no=151"
-                        >美西．國家公園</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=11&amp;no=104"
-                        >秘魯‧精選系列</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=11&amp;no=103"
-                        >中南美多國</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="pushy-submenu pushy-submenu-closed">
-                  <button type="button">紐西蘭．澳洲</button>
-                  <ul>
-                    <li class="pushy-link">
-                      <a href="/exh/Exhibition.aspx?area_no=8" class="exh-title"
-                        >紐西蘭．澳洲全覽</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=8&amp;no=115"
-                        >澳洲．塔斯馬尼亞</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=8&amp;no=108"
-                        >紐西蘭(南島．北島)</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="pushy-submenu pushy-submenu-closed">
-                  <button type="button">中亞．蒙古國</button>
-                  <ul>
-                    <li class="pushy-link">
-                      <a
-                        href="/exh/Exhibition.aspx?area_no=44"
-                        class="exh-title"
-                        >中亞．蒙古國全覽</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=44&amp;no=229"
-                        >中亞（哈薩克．吉爾吉斯．塔吉克．土庫曼．烏茲別克）</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=44&amp;no=230"
-                        >蒙古國</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="pushy-submenu pushy-submenu-closed">
-                  <button type="button">南亞</button>
-                  <ul>
-                    <li class="pushy-link">
-                      <a href="/exh/Exhibition.aspx?area_no=9" class="exh-title"
-                        >南亞全覽</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=9&amp;no=82"
-                        >斯里蘭卡</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=9&amp;no=81"
-                        >不丹．印度．尼泊爾</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="pushy-submenu pushy-submenu-closed">
-                  <button type="button">非洲</button>
-                  <ul>
-                    <li class="pushy-link">
-                      <a
-                        href="/exh/Exhibition.aspx?area_no=12"
-                        class="exh-title"
-                        >非洲全覽</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=12&amp;no=90"
-                        >突尼西亞</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=12&amp;no=163">埃及</a>
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=12&amp;no=92">南非</a>
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=12&amp;no=124"
-                        >肯亞．坦尚尼亞</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=12&amp;no=73"
-                        >模里西斯．馬達加斯加</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=12&amp;no=199"
-                        >納米比亞．衣索比亞</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=12&amp;no=227"
-                        >東南非．多國</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=12&amp;no=93"
-                        >摩洛哥</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="pushy-submenu pushy-submenu-closed">
-                  <button type="button">遊輪</button>
-                  <ul>
-                    <li class="pushy-link">
-                      <a href="/exh/Exhibition.aspx?area_no=7" class="exh-title"
-                        >遊輪全覽</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=7&amp;no=55"
-                        >日本‧韓國‧東北亞</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=7&amp;no=57"
-                        >阿拉斯加‧冰河景緻</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=7&amp;no=56"
-                        >地中海‧愛琴海列島</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=7&amp;no=174"
-                        >北歐‧英國‧愛爾蘭</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=7&amp;no=87"
-                        >美墨加東‧加勒比海</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=7&amp;no=175"
-                        >澳洲‧紐西蘭南北島</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=7&amp;no=176"
-                        >東南亞‧杜拜波斯灣</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=7&amp;no=58"
-                        >南北極‧中／南美洲</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=7&amp;no=86"
-                        >基隆港往返‧熱賣中</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=7&amp;no=179"
-                        >三井海洋郵輪</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="pushy-submenu pushy-submenu-closed">
-                  <button type="button">海島</button>
-                  <ul>
-                    <li class="pushy-link">
-                      <a
-                        href="/exh/Exhibition.aspx?area_no=27"
-                        class="exh-title"
-                        >海島全覽</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=27&amp;no=143"
-                        >馬爾地夫</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=27&amp;no=140">關島</a>
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=27&amp;no=142">帛琉</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="pushy-submenu pushy-submenu-closed">
-                  <button type="button">日本</button>
-                  <ul>
-                    <li class="pushy-link">
-                      <a
-                        href="/exh/Exhibition.aspx?area_no=35"
-                        class="exh-title"
-                        >日本全覽</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=35&amp;no=153"
-                        >北海道(滑雪．CLUB MED)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=35&amp;no=154"
-                        >東北(奧入瀨溪．弘前城．仙台)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=35&amp;no=155"
-                        >東京(富士山．迪士尼．輕井澤)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=35&amp;no=157"
-                        >北陸(名古屋．立山．白川鄉)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=35&amp;no=156"
-                        >京阪神(南紀．奈良)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=35&amp;no=159"
-                        >四國．山陰山陽(鳥取．廣島)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=35&amp;no=158"
-                        >九州(福岡．佐賀．熊本．宮崎)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=35&amp;no=54"
-                        >沖繩．石垣島</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="pushy-submenu pushy-submenu-closed">
-                  <button type="button">中國大陸</button>
-                  <ul>
-                    <li class="pushy-link">
-                      <a
-                        href="/exh/Exhibition.aspx?area_no=37"
-                        class="exh-title"
-                        >中國大陸全覽</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=37&amp;no=95"
-                        >鐵道專區(高端專列包車.西藏青藏鐵路)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=37&amp;no=16"
-                        >華東(上蘇杭‧寧波‧南京‧無錫‧溫州‧黃山‧千島湖‧九華山‧江西南昌)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=37&amp;no=19"
-                        >華南(桂林南寧‧海南島‧福建武夷山‧金廈小三通)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=37&amp;no=89"
-                        >華西(四川.重慶.貴州.雲南.湖南)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=37&amp;no=15"
-                        >華北(山東青島‧北京天津‧山西太原‧內蒙古草原)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=37&amp;no=17"
-                        >華中(長江三峽‧湖南張家界‧河南鄭州‧湖北武當山)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=37&amp;no=35"
-                        >西北(南北疆‧絲路青海‧甘肅寧夏‧陝西西安)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=37&amp;no=34"
-                        >東北(東北三省‧呼倫貝爾草原‧中俄朝鮮)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=37&amp;no=96"
-                        >大灣區(香港‧澳門‧廣東)</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="pushy-submenu pushy-submenu-closed">
-                  <button type="button">東南亞</button>
-                  <ul>
-                    <li class="pushy-link">
-                      <a
-                        href="/exh/Exhibition.aspx?area_no=32"
-                        class="exh-title"
-                        >東南亞全覽</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=32&amp;no=224"
-                        >寮國(龍坡邦、永珍)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=32&amp;no=172"
-                        >北越(河內、下龍灣、沙壩)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=32&amp;no=225"
-                        >南越(富國島、胡志明)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=32&amp;no=226"
-                        >中越(峴港、會安、順化)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=32&amp;no=233"
-                        >東馬(沙勞越、古晉、沙巴)
-                      </a>
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=32&amp;no=237"
-                        >探索古文明</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=32&amp;no=203">汶萊</a>
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=32&amp;no=134"
-                        >印尼(雅加達、巴里島、泗水)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=32&amp;no=130"
-                        >泰國(普吉島、清邁、蘇美島)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=32&amp;no=131"
-                        >菲律賓(馬尼拉、長灘島、宿霧、巴拉望)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=32&amp;no=137"
-                        >馬新(檳城、吉隆坡、新加坡)</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=32&amp;no=50"
-                        >柬埔寨(金邊、吳哥窟)</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="pushy-submenu pushy-submenu-closed">
-                  <button type="button">韓國</button>
-                  <ul>
-                    <li class="pushy-link">
-                      <a
-                        href="/exh/Exhibition.aspx?area_no=36"
-                        class="exh-title"
-                        >韓國全覽</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=36&amp;no=52"
-                        >韓國（首爾）</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=36&amp;no=206"
-                        >釜山（大邱．慶州）</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=36&amp;no=211"
-                        >濟州島</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="pushy-submenu pushy-submenu-closed">
-                  <button type="button">河輪</button>
-                  <ul>
-                    <li class="pushy-link">
-                      <a
-                        href="/exh/Exhibition.aspx?area_no=42"
-                        class="exh-title"
-                        >河輪全覽</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=42&amp;no=126"
-                        >絕色浪漫．多瑙河</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=42&amp;no=127"
-                        >萊茵河．摩塞爾河</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=42&amp;no=128"
-                        >隆河．塞納河風情</a
-                      >
-                    </li>
-                    <li class="pushy-link">
-                      <a href="/exh/ExhMini.aspx?area_no=42&amp;no=129"
-                        >亞馬遜．生態探索</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <div class="pushy-pt">
-                  <li class="pushy-title pushy-mobileShow">
-                    <a href="http://www.artisan.com.tw/Member2.aspx"
-                      >團員專區</a
-                    >
-                  </li>
-                  <li class="pushy-title pushy-mobileShow">
-                    <a href="https://b2b.artisan.com.tw/" target="_blank"
-                      >同業專區</a
-                    >
-                  </li>
-                  <li class="pushy-title pushy-mobileShow">
-                    <a
-                      href="https://www.artisan.com.tw/MiniTour.aspx"
-                      target="_blank"
-                      >客製MINI TOUR</a
-                    >
-                  </li>
-                  <li class="pushy-title pushy-mobileShow">
-                    <a
-                      href="https://www.artisan.com.tw/mice/index.aspx"
-                      target="_blank"
-                      >企業專區</a
-                    >
-                  </li>
+#top-menu {
+    font-size: 15px !important;
+    white-space:nowrap;
+}
 
-                  <li class="pushy-title pushy-mobileShow">
-                    <a
-                      href="https://www.artisan.com.tw/Lecture/Lecture.aspx"
-                      target="_blank"
-                      >旅遊講座</a
-                    >
-                  </li>
-                </div>
-              </ul>
-            </div>
-          </div>
 
-          <!-- Site Overlay -->
-          <div class="site-overlay"></div>
+/* 表頭logo */
+#logo{
+    margin: auto;
+}
 
-          <!-- /Pushy Menu -->
+.logo-w{
+    width: 80%;
+    margin: 5px;
+}
 
-          <nav id="nav" class="nav-bg">
-            <div class="nav-container">
-              <div class="banner-news" style="display: none">
-                <span>Final Call＞</span>
-                <marquee
-                  direction="left"
-                  width="200"
-                  align="botton"
-                  scrollamount="3"
-                ></marquee>
-              </div>
+/*    header   */
+.outer-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	align-items: center;
+    margin: 3px 5px;
+}
 
-              <div class="menu-pc">
-                <ul class="nav_wrap add-high">
-                  <li class="nav_box">
-                    <span class="nav-title"
-                      >國外旅遊
-                      <i class="fa-solid fa-chevron-down fa-xs"></i>
-                      <span class="rd-navbar-submenu-toggle"></span>
-                      <span class="under_line"></span>
-                    </span>
+.process-section .outer-box {
+	position: relative;
+}
 
-                    <div class="sub_menu">
-                      <div class="sub_menu_wrap">
-                        <div class="d-flex">
-                          <div class="sub_menu_box">
-                            <div class="sub_menu_title sub_menu_title_open">
-                              <a href="javascript:;"><span>歐洲</span></a>
-                            </div>
-                            <div class="sub_sub_menu_wrap">
-                              <ul
-                                class="sub_menu_list sub_menu_45 sub_menu_list_w px-5"
-                              >
-                                <div class="lane">中西歐</div>
-                                <span>
-                                  <li>
-                                    <a href="/exh/Exhibition.aspx?area_no=1"
-                                      >中西歐全覽</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=1&no=169"
-                                      >荷蘭．比利時．法國．盧森堡</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=1&no=5"
-                                      >英國．愛爾蘭</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=1&no=3"
-                                      >瑞士</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=1&no=2"
-                                      >法國</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=1&no=6"
-                                      >德國．瑞士</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=1&no=9"
-                                      >法國．瑞士．義大利</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=1&no=7"
-                                      >德國</a
-                                    >
-                                  </li>
-                                </span>
-                              </ul>
-                              <ul
-                                class="sub_menu_list sub_menu_45 sub_menu_list_w px-3"
-                              >
-                                <div class="lane">東歐</div>
-                                <span>
-                                  <li>
-                                    <a href="/exh/Exhibition.aspx?area_no=2"
-                                      >東歐全覽</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=2&no=22"
-                                      >奧地利．捷克．匈牙利．斯洛伐克</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=2&no=28"
-                                      >克羅埃西亞．巴爾幹半島</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=2&no=27"
-                                      >俄羅斯．波蘭．波羅的海</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=2&no=26"
-                                      >俄羅斯
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        庫頁島．勘察加．海嵾崴
-                                      </span>
-                                    </a>
-                                  </li>
-                                </span>
-                              </ul>
-                              <ul
-                                class="sub_menu_list sub_menu_38 sub_menu_list_w2 px-3"
-                              >
-                                <div class="lane">南歐</div>
-                                <span>
-                                  <li>
-                                    <a href="/exh/Exhibition.aspx?area_no=5"
-                                      >南歐全覽</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=5&no=1"
-                                      >義大利</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=5&no=30"
-                                      >西班牙</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=5&no=99"
-                                      >葡萄牙</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=5&no=162"
-                                      >希臘</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=5&no=31"
-                                      >西班牙．葡萄牙．摩洛哥</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=5&no=182"
-                                      >馬爾它．塞普路斯</a
-                                    >
-                                  </li>
-                                </span>
-                              </ul>
-                              <ul
-                                class="sub_menu_list sub_menu_45 sub_menu_list_w px-5"
-                              >
-                                <div class="lane">北歐</div>
-                                <span>
-                                  <li>
-                                    <a href="/exh/Exhibition.aspx?area_no=6"
-                                      >北歐全覽</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=6&no=44"
-                                      >北歐．芬蘭．挪威．冰島賞極光</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=6&no=41"
-                                      >北歐單國．雙國</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=6&no=43"
-                                      >北歐五國</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=6&no=42"
-                                      >北歐三國．四國</a
-                                    >
-                                  </li>
-                                </span>
-                              </ul>
-                            </div>
-                          </div>
+.products-box .outer-box {
+	position: relative;
+	padding-right: 400px;
+}
 
-                          <div class="sub_menu_box">
-                            <div class="sub_menu_title sub_menu_title_open">
-                              <span>中東</span>
-                            </div>
-                            <div class="sub_sub_menu_wrap">
-                              <ul class="sub_menu_list sub_menu_w w-60">
-                                <div class="lane">中東</div>
-                                <span>
-                                  <li>
-                                    <a href="/exh/Exhibition.aspx?area_no=10"
-                                      >中東全覽</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=10&no=164"
-                                      >約旦．以色列</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=10&no=65"
-                                      >阿拉伯半島．伊朗</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=10&no=236"
-                                      >伊拉克</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=10&no=161"
-                                      >土耳其．土希埃</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=10&no=63"
-                                      >杜拜</a
-                                    >
-                                  </li>
-                                </span>
-                              </ul>
-                            </div>
-                          </div>
+.products-box .outer-box .banner-box-two {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
 
-                          <div class="sub_menu_box">
-                            <div class="sub_menu_title sub_menu_title_open">
-                              <span>美洲</span>
-                            </div>
-                            <div class="sub_sub_menu_wrap">
-                              <ul class="sub_menu_list sub_menu_w w-60">
-                                <div class="lane">美洲</div>
-                                <span>
-                                  <li>
-                                    <a href="/exh/Exhibition.aspx?area_no=11"
-                                      >美洲全覽</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=11&no=101"
-                                      >加拿大</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=11&no=102"
-                                      >美東．美加東</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=11&no=13"
-                                      >遇見幸福．極光</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=11&no=151"
-                                      >美西．國家公園</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=11&no=104"
-                                      >秘魯．精選系列</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=11&no=103"
-                                      >中南美多國</a
-                                    >
-                                  </li>
-                                </span>
-                              </ul>
-                            </div>
-                          </div>
+.contact-section .outer-box {
+	max-width: 1370px;
+	position: relative;
+}
 
-                          <div class="sub_menu_box">
-                            <div class="sub_menu_title sub_menu_title_open">
-                              <span>紐西蘭．澳洲</span>
-                            </div>
-                            <div class="sub_sub_menu_wrap">
-                              <ul class="sub_menu_list sub_menu_w w-60">
-                                <div div class="lane">紐西蘭．澳洲</div>
-                                <span>
-                                  <li>
-                                    <a href="/exh/Exhibition.aspx?area_no=8"
-                                      >紐西蘭．澳洲全覽</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=8&no=115"
-                                      >澳洲．塔斯馬尼亞</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=8&no=108"
-                                      >紐西蘭
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        南島．北島</span
-                                      ></a
-                                    >
-                                  </li>
-                                </span>
-                              </ul>
-                            </div>
-                          </div>
+/* header 文字 */
+#top-menu {
+    float: none !important;
+    position: relative;
+}
 
-                          <div class="sub_menu_box">
-                            <div class="sub_menu_title sub_menu_title_open">
-                              <span>中亞．蒙古國</span>
-                            </div>
-                            <div class="sub_sub_menu_wrap">
-                              <ul class="sub_menu_list sub_menu_w w-60">
-                                <div class="lane">中亞．蒙古國</div>
-                                <span>
-                                  <li>
-                                    <a href="/exh/Exhibition.aspx?area_no=44"
-                                      >中亞．蒙古國全覽</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=44&no=229"
-                                      >中亞
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        哈薩克．吉爾吉斯．塔吉克．土庫曼．烏茲別克</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=44&no=230"
-                                      >蒙古國</a
-                                    >
-                                  </li>
-                                </span>
-                              </ul>
-                            </div>
-                          </div>
+.icontext {
+    padding-left: 20px;
+    position: relative;
+}
 
-                          <div class="sub_menu_box">
-                            <div class="sub_menu_title sub_menu_title_open">
-                              <span>南亞</span>
-                            </div>
-                            <div class="sub_sub_menu_wrap">
-                              <ul class="sub_menu_list sub_menu_w w-60">
-                                <div class="lane">南亞</div>
-                                <span>
-                                  <li>
-                                    <a href="/exh/Exhibition.aspx?area_no=9"
-                                      >南亞全覽</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=9&no=82"
-                                      >斯里蘭卡</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=9&no=81"
-                                      >不丹．印度．尼泊爾</a
-                                    >
-                                  </li>
-                                </span>
-                              </ul>
-                            </div>
-                          </div>
+.icontext::after {
+    background-color: rgb(202, 202, 202);
+    content: "";
+    height: 20px;
+    position: absolute;
+	left: 5px;
+    top: 6px;
+    width: 2px;
+}
 
-                          <div class="sub_menu_box">
-                            <div class="sub_menu_title sub_menu_title_open">
-                              <span>非洲</span>
-                            </div>
-                            <div class="sub_sub_menu_wrap">
-                              <ul class="sub_menu_list sub_menu_w">
-                                <div class="lane">非洲</div>
-                                <span class="laned-flex2">
-                                  <li>
-                                    <a href="/exh/Exhibition.aspx?area_no=12"
-                                      >非洲全覽</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=12&no=90"
-                                      >突尼西亞</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=12&no=163"
-                                      >埃及</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=12&no=92"
-                                      >南非</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=12&no=124"
-                                      >肯亞．坦尚尼亞</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=12&no=73"
-                                      >模里西斯．馬達加斯加</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=12&no=199"
-                                      >納米比亞．衣索比亞</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=12&no=227"
-                                      >東南非．多國</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=12&no=93"
-                                      >摩洛哥</a
-                                    >
-                                  </li>
-                                </span>
-                              </ul>
-                            </div>
-                          </div>
+.title{
+	display: flex;
+	align-items: center;
+	border-bottom: none;
+	padding: 6px 3px;
+	margin-bottom: 0;
+	color: rgb(72, 65, 65);
+}
 
-                          <div class="sub_menu_box">
-                            <div class="sub_menu_title sub_menu_title_open">
-                              <span>遊輪</span>
-                            </div>
-                            <div class="sub_sub_menu_wrap">
-                              <ul class="sub_menu_list sub_menu_w">
-                                <div class="lane">遊輪</div>
-                                <span class="laned-flex2">
-                                  <li>
-                                    <a href="/exh/Exhibition.aspx?area_no=7"
-                                      >遊輪全覽</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=7&no=55"
-                                      >日本‧韓國．東北亞</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=7&no=57"
-                                      >阿拉斯加．冰河景緻</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=7&no=56"
-                                      >地中海．愛琴海列島</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=7&no=174"
-                                      >北歐．英國．愛爾蘭</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=7&no=87"
-                                      >美墨加東．加勒比海</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=7&no=175"
-                                      >澳洲．紐西蘭南北島</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=7&no=176"
-                                      >東南亞．杜拜波斯灣</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=7&no=58"
-                                      >南北極．中／南美洲</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=7&no=86"
-                                      >基隆港往返．熱賣中</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=7&no=179"
-                                      >三井海洋郵輪</a
-                                    >
-                                  </li>
-                                </span>
-                              </ul>
-                            </div>
-                          </div>
+.title:hover{
+	color: rgb(182, 8, 8);
+}
 
-                          <div class="sub_menu_box">
-                            <div class="sub_menu_title sub_menu_title_open">
-                              <span>海島</span>
-                            </div>
-                            <div class="sub_sub_menu_wrap">
-                              <ul class="sub_menu_list sub_menu_w w-60">
-                                <div class="lane">海島</div>
-                                <span>
-                                  <li>
-                                    <a href="/exh/Exhibition.aspx?area_no=27"
-                                      >海島全覽</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=27&no=143"
-                                      >馬爾地夫</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=27&no=140"
-                                      >關島</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=27&no=142"
-                                      >帛琉</a
-                                    >
-                                  </li>
-                                </span>
-                              </ul>
-                            </div>
-                          </div>
 
-                          <div class="sub_menu_box">
-                            <div class="sub_menu_title sub_menu_title_open">
-                              <span>日本</span>
-                            </div>
-                            <div class="sub_sub_menu_wrap">
-                              <ul class="sub_menu_list sub_menu_w">
-                                <div class="lane">日本</div>
-                                <span class="laned-flex2 lane-w">
-                                  <li>
-                                    <a href="/exh/Exhibition.aspx?area_no=35"
-                                      >日本全覽</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=35&no=153"
-                                      >北海道
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        滑雪．CLUB MED</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=35&no=154"
-                                      >東北
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        奧入瀨溪．弘前城．仙台</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=35&no=155"
-                                      >東京
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        富士山．迪士尼．輕井澤</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=35&no=157"
-                                      >北陸
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        名古屋．立山．白川鄉</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=35&no=156"
-                                      >京阪神
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        南紀．奈良</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=35&no=159"
-                                      >四國．山陰山陽
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        鳥取．廣島</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=35&no=158"
-                                      >九州
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        福岡．佐賀．熊本．宮崎</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=35&no=54"
-                                      >沖繩．石垣島</a
-                                    >
-                                  </li>
-                                </span>
-                              </ul>
-                            </div>
-                          </div>
+.icontext a{
+	text-decoration: none;
+}
 
-                          <div class="sub_menu_box">
-                            <div class="sub_menu_title sub_menu_title_open">
-                              <span>中國大陸</span>
-                            </div>
-                            <div class="sub_sub_menu_wrap">
-                              <ul class="sub_menu_list sub_menu_90 w-71">
-                                <div class="lane">中國大陸</div>
-                                <span class="laned-flex">
-                                  <li>
-                                    <a href="/exh/Exhibition.aspx?area_no=37"
-                                      >中國大陸全覽</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=37&no=95"
-                                      >鐵道專區
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        高端專列包車．西藏青藏鐵路</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=37&no=16"
-                                      >華東
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        上蘇杭．寧波．南京．無錫．溫州．黃山．千島湖．九華山．江西南昌</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=37&no=19"
-                                      >華南
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        桂林南寧．海南島．福建武夷山．金廈小三通</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=37&no=89"
-                                      >華西
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        四川．重慶．貴州．雲南．湖南</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=37&no=15"
-                                      >華北
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        山東青島．北京天津．山西太原．內蒙古草原</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=37&no=17"
-                                      >華中
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        長江三峽．湖南張家界．河南鄭州．湖北武當山</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=37&no=35"
-                                      >西北
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        南北疆．絲路青海．甘肅寧夏．陝西西安</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=37&no=34"
-                                      >東北
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        東北三省．呼倫貝爾草原．中俄朝鮮</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=37&no=96"
-                                      >大灣區
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        香港．澳門．廣東</span
-                                      ></a
-                                    >
-                                  </li>
-                                </span>
-                              </ul>
-                            </div>
-                          </div>
+.icontext-title {
+	font-size: 16px;
+	font-weight: 500;
+    font-family: "Noto Sans TC", "微軟正黑體", Arial, sans-serif;
+	white-space: nowrap;
+}
 
-                          <div class="sub_menu_box">
-                            <div class="sub_menu_title sub_menu_title_open">
-                              <span>東南亞</span>
-                            </div>
-                            <div class="sub_sub_menu_wrap">
-                              <ul class="sub_menu_list sub_menu_90 w-71">
-                                <div class="lane">東南亞</div>
-                                <span class="laned-flex2">
-                                  <li>
-                                    <a href="/exh/Exhibition.aspx?area_no=32"
-                                      >東南亞全覽</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=32&no=224"
-                                      >寮國
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        龍坡邦．永珍</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=32&no=172"
-                                      >北越
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        河內．下龍灣．沙壩</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=32&no=225"
-                                      >南越
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        富國島．胡志明</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=32&no=226"
-                                      >中越
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        峴港．會安．順化</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=32&no=233"
-                                      >東馬
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        沙勞越．古晉．沙巴</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=32&no=237"
-                                      >探索古文明地區</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=32&no=203"
-                                      >汶萊</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=32&no=134"
-                                      >印尼
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        雅加達．巴里島．泗水</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=32&no=130"
-                                      >泰國
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        普吉島．清邁．蘇美島</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=32&no=131"
-                                      >菲律賓
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        馬尼拉．長灘島．宿霧．巴拉望</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=32&no=137"
-                                      >馬新
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        檳城．吉隆坡．新加坡</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=32&no=50"
-                                      >柬埔寨馬新
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        金邊．吳哥窟</span
-                                      ></a
-                                    >
-                                  </li>
-                                </span>
-                              </ul>
-                            </div>
-                          </div>
 
-                          <div class="sub_menu_box">
-                            <div class="sub_menu_title sub_menu_title_open">
-                              <span>韓國</span>
-                            </div>
-                            <div class="sub_sub_menu_wrap">
-                              <ul class="sub_menu_list sub_menu_w w-60">
-                                <div class="lane">韓國</div>
-                                <span>
-                                  <li>
-                                    <a href="/exh/Exhibition.aspx?area_no=36"
-                                      >韓國全覽</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="/exh/ExhMini.aspx?area_no=36&no=52"
-                                      >韓國
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        首爾</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=36&no=206"
-                                      >釜山
-                                      <span class="sub_menu_subtitle"
-                                        ><i
-                                          class="fa fa-caret-right"
-                                          aria-hidden="true"
-                                        ></i>
-                                        大邱．慶州</span
-                                      ></a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=36&no=211"
-                                      >濟州島</a
-                                    >
-                                  </li>
-                                </span>
-                              </ul>
-                            </div>
-                          </div>
+/*   header icon 2   */
+.fab{
+    font-size: 22px;
+}
 
-                          <div class="sub_menu_box">
-                            <div class="sub_menu_title sub_menu_title_open">
-                              <span>河輪</span>
-                            </div>
-                            <div class="sub_sub_menu_wrap">
-                              <ul class="sub_menu_list sub_menu_w w-60">
-                                <div class="lane">河輪</div>
-                                <span>
-                                  <li>
-                                    <a href="/exh/Exhibition.aspx?area_no=42"
-                                      >河輪全覽</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=42&no=126"
-                                      >絕色浪漫．多瑙河</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=42&no=127"
-                                      >萊茵河．摩塞爾河</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=42&no=128"
-                                      >隆河．塞納河風情</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a
-                                      href="/exh/ExhMini.aspx?area_no=42&no=129"
-                                      >亞馬遜．生態探索</a
-                                    >
-                                  </li>
-                                </span>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
+.social-text{
+	align-items: center;	
+}
+.social-bg{
+	height: 35px;
+	padding: 15px 10px 10px;
+}
+.box-auto{
+	margin: auto 0;
+}
+.social-icon-one {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+    margin-top: 8px;
+}
 
-                  <li class="nav_box">
-                    <a
-                      href="https://www.artisan.com.tw/MiniTour.aspx"
-                      class="nav_boxtitle"
-                      >客製MINI TOUR</a
-                    >
-                    <span class="under_line"></span>
-                  </li>
+.social-icon-one li {
+	position: relative;
+}
 
-                  <li class="nav_box">
-                    <a
-                      href="https://www.luxetravel.com.tw/euro-backpack"
-                      class="nav_boxtitle"
-                      >自由行</a
-                    >
-                    <span class="under_line"></span>
-                  </li>
+.social-icon-one li a {
+    position: relative;
+    display: block;
+    color: #8c001a;	
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
 
-                  <li class="nav_box card">
-                    <a
-                      href="https://www.artisan.com.tw/fittrip/fittrip.aspx"
-                      class="nav_boxtitle nav_flex"
-                    >
-                      國際機票
-                      <ul>
-                        <li>機 + 酒</li>
-                        <li>立即GO</li>
-                        <li>機 + 酒</li>
-                        <li>立即GO</li>
-                        <li>機 + 酒</li>
-                      </ul>
-                    </a>
+.social-icon-one li a:hover {
+	color: #3f0505;
+}
 
-                    <span class="under_line"></span>
-                  </li>
-                  <li class="nav_box">
-                    <a
-                      href="https://www.artisan.com.tw/Lecture/Lecture.aspx"
-                      class="nav_boxtitle"
-                      >旅遊講座</a
-                    >
-                    <span class="under_line"></span>
-                  </li>
-                  <li class="nav_box">
-                    <a
-                      href="https://www.artisan.com.tw/blog/"
-                      class="nav_boxtitle"
-                      >匠玩部落格</a
-                    >
-                    <span class="under_line"></span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </header>
-        <!-- /Header -->
+/*  會員專區 */
+ul.drop-down-menu {
+	margin-bottom: 0;
+	display: inline-block;
+}
 
-        <!-- Banner -->
-        <div id="main">
-          <div id="theme_B_owl" class="main-banner owl-carousel owl-theme">
-            <div class="item">
-              <a href="">
-                <img
-                  src="https://www.artisan.com.tw/Zupload16/Theme_B/8f3410ba54ba44a3ace475983a882544.jpg"
-                  class="banner-pt"
-                  alt=""
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- /Banner -->
+ul.drop-down-menu li {
+	position: relative;
+	white-space: nowrap;
+}
 
-        <!-- 主打行程 -->
-        <div class="theme">
-          <div class="stroke_container">
-            <div class="stroke">
-              <h1>主打行程</h1>
-              <div id="icon01">
-                <img src="./images/20_exhTitle_icon01.png" alt="" />
-              </div>
-              <div id="groupA">
-                <div class="col-3">
-                  <a
-                    href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20240916000004"
-                  >
-                    <img
-                      src="https://www.artisan.com.tw/Zupload16/Theme_B/20250102123148.jpg"
-                      alt=""
-                    />
-                    <p>櫻百選打吹公園・世羅高原・山陰山陽春櫻7天</p></a
-                  >
-                </div>
-                <div class="col-3">
-                  <a
-                    href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20230918000007"
-                  >
-                    <img
-                      src="https://www.artisan.com.tw/Zupload16/Theme_B/20240930101909.jpg"
-                      alt=""
-                    />
-                    <p>百選溫泉．上高地．合掌村立山黑部５天</p>
-                  </a>
-                </div>
-                <div class="col-3">
-                  <a
-                    href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20230928000004"
-                  >
-                    <img
-                      src="https://www.artisan.com.tw/Zupload16/Theme_B/20250102123319.jpg"
-                      alt=""
-                    />
-                    <p>紫藤花瀑布．富士芝櫻花海．東京立山黑部６天</p></a
-                  >
-                </div>
-                <div class="col-3">
-                  <a
-                    href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20250108000004"
-                  >
-                    <img
-                      src="https://www.artisan.com.tw/Zupload16/Theme_B/20250102124012.jpg"
-                      alt=""
-                    />
-                    <p>日本三景天橋立・環球影城／大阪萬博７天</p>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+ul.drop-down-menu > li:last-child {
+	border-right: none;
+}
 
-        <div class="m_right_btn" style="display: none">
-          <div class="menu_btn">
-            <a href="javascript:;" class="m_btn">節目<br />選單</a>
-            <div class="menu_btn_box">
-              <span class="menu_close"><i class="fas fa-times"></i></span>
-              <ul class="menu_btn_ul">
-                <li>
-                  <a href="javascript:;"
-                    >台灣<i class="fas fa-chevron-right"></i
-                  ></a>
-                  <ul class="m_ul_inner">
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=31&no=212"
-                        >北部(大台北、基隆、桃園、新竹、苗栗)</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=31&no=213"
-                        >中部(台中、南投、彰化)</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=31&no=214"
-                        >東部(宜蘭、花蓮、台東)</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=31&no=215"
-                        >南部(雲林、嘉義、台南、高雄、屏東)</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=31&no=216"
-                        >離島(金門、馬祖、綠島、澎湖)</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=31&no=217"
-                        >台灣遊輪</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=31&no=218"
-                        >遊艇．帆船．華信假期</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="javascript:;"
-                    >西歐<i class="fas fa-chevron-right"></i
-                  ></a>
-                  <ul class="m_ul_inner">
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=1&no=5">英‧愛</a>
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=1&no=2">法國</a>
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=1&no=3">瑞士</a>
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=1&no=6">德‧瑞</a>
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=1&no=9"
-                        >法‧瑞‧義</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=1&no=105"
-                        >瑞‧義</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=1&no=169"
-                        >荷‧比‧盧</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=1&no=8">法‧瑞</a>
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=1&no=171"
-                        >荷‧比‧多國(法國、英國…)</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=1&no=7">德國</a>
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=1&no=209"
-                        >德‧義‧奥</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="javascript:;"
-                    >東歐<i class="fas fa-chevron-right"></i
-                  ></a>
-                  <ul class="m_ul_inner">
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=2&no=191"
-                        >克斯</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=2&no=28"
-                        >克斯蒙(巴爾幹)</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=2&no=23"
-                        >奧‧捷‧匈</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=2&no=22"
-                        >奧‧捷</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=2&no=21"
-                        >奧地利</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=2&no=20"
-                        >捷克(單國)</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=2&no=195"
-                        >匈斯波</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=2&no=26"
-                        >俄羅斯</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=2&no=27"
-                        >俄羅斯+三小國</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=2&no=78"
-                        >波蘭‧波羅的海</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=2&no=147"
-                        >白俄羅斯．烏克蘭</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=2&no=148"
-                        >遠東．西伯利亞貝加爾湖</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=2&no=197"
-                        >巴爾幹五國</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=2&no=198"
-                        >克羅埃西亞</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=2&no=210"
-                        >德國、 波蘭</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="javascript:;"
-                    >南歐<i class="fas fa-chevron-right"></i
-                  ></a>
-                  <ul class="m_ul_inner">
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=5&no=1"
-                        >義大利</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=5&no=30"
-                        >西班牙</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=5&no=99"
-                        >葡萄牙</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=5&no=162"
-                        >希臘</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=5&no=31"
-                        >西‧葡</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=5&no=32"
-                        >西‧葡‧摩</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=5&no=182"
-                        >馬爾它‧塞普路斯</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="javascript:;"
-                    >北歐<i class="fas fa-chevron-right"></i
-                  ></a>
-                  <ul class="m_ul_inner">
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=6&no=44"
-                        >北歐．芬蘭．挪威．冰島賞極光</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=6&no=41"
-                        >北歐單國．雙國深度遊</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=6&no=43"
-                        >北歐五國</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=6&no=42"
-                        >北歐三國．四國</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="javascript:;"
-                    >古文明<i class="fas fa-chevron-right"></i
-                  ></a>
-                  <ul class="m_ul_inner">
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=10&no=161"
-                        >土耳其</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=10&no=63"
-                        >杜拜</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=10&no=164"
-                        >約‧以</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=10&no=65"
-                        >伊朗</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=10&no=67"
-                        >烏茲別克</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=10&no=208"
-                        >中東海灣六國</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=10&no=62"
-                        >黎‧敘‧約‧以</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="javascript:;"
-                    >美洲<i class="fas fa-chevron-right"></i
-                  ></a>
-                  <ul class="m_ul_inner">
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=11&no=101"
-                        >加拿大‧景緻</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=11&no=102"
-                        >美東‧美加東</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=11&no=13"
-                        >遇見幸福．極光</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=11&no=151"
-                        >美西．國家公園</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=11&no=104"
-                        >秘魯‧精選系列</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=11&no=103"
-                        >中南美洲‧多國</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="javascript:;"
-                    >紐澳<i class="fas fa-chevron-right"></i
-                  ></a>
-                  <ul class="m_ul_inner">
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=8&no=71"
-                        >紐西蘭南北島</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=8&no=108"
-                        >紐西蘭純北島／純南島</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=8&no=116"
-                        >中.西.南.北澳</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=8&no=112"
-                        >東澳單城</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=8&no=114"
-                        >東澳雙城.三城</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=8&no=60"
-                        >雙國-紐澳、紐&大溪地</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="javascript:;"
-                    >南亞<i class="fas fa-chevron-right"></i
-                  ></a>
-                  <ul class="m_ul_inner">
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=9&no=82"
-                        >斯里蘭卡.馬爾地夫</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=9&no=83"
-                        >印度.金三角.喀什米爾</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=9&no=80"
-                        >尼泊爾</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=9&no=81"
-                        >不丹.錫金大吉嶺</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="javascript:;"
-                    >大非洲<i class="fas fa-chevron-right"></i
-                  ></a>
-                  <ul class="m_ul_inner">
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=12&no=90"
-                        >北非</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=12&no=163"
-                        >埃及</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=12&no=92"
-                        >南非</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=12&no=91"
-                        >肯亞</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=12&no=124"
-                        >肯亞．坦尚尼亞</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=12&no=192"
-                        >肯亞．維多利亞瀑布</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=12&no=73"
-                        >納米比亞</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=12&no=125"
-                        >納米比亞．維多利亞瀑布</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=12&no=199"
-                        >衣索比亞</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=12&no=200"
-                        >少人成行．想非就飛</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="javascript:;"
-                    >遊輪<i class="fas fa-chevron-right"></i
-                  ></a>
-                  <ul class="m_ul_inner">
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=7&no=55"
-                        >日本‧韓國‧東北亞</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=7&no=57"
-                        >阿拉斯加‧冰河景緻</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=7&no=56"
-                        >地中海‧愛琴海列島</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=7&no=174"
-                        >北歐‧英國‧愛爾蘭</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=7&no=87"
-                        >美墨加東‧加勒比海</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=7&no=175"
-                        >澳洲‧紐西蘭南北島</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=7&no=176"
-                        >東南亞‧杜拜波斯灣</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=7&no=58"
-                        >南北極‧中／南美洲</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=7&no=86"
-                        >基隆港往返‧熱賣中</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="javascript:;"
-                    >海島<i class="fas fa-chevron-right"></i
-                  ></a>
-                  <ul class="m_ul_inner">
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=27&no=140"
-                        >關島</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=27&no=142"
-                        >帛琉</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=27&no=143"
-                        >馬爾地夫</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=27&no=144"
-                        >峇里島</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=27&no=75"
-                        >大溪地</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=27&no=146"
-                        >斐濟</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=27&no=207"
-                        >馬達加斯加</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=27&no=74"
-                        >模里西斯</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=27&no=149"
-                        >夏威夷</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="javascript:;"
-                    >日本<i class="fas fa-chevron-right"></i
-                  ></a>
-                  <ul class="m_ul_inner">
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=35&no=153"
-                        >北海道</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=35&no=154"
-                        >東北</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=35&no=155"
-                        >關東</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=35&no=157"
-                        >北陸</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=35&no=156"
-                        >關西</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=35&no=159"
-                        >四國．山陰山陽</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=35&no=158"
-                        >九州</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=35&no=54"
-                        >沖繩</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="javascript:;"
-                    >韓國<i class="fas fa-chevron-right"></i
-                  ></a>
-                  <ul class="m_ul_inner">
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=36&no=52"
-                        >首爾（京畿道‧江原道‧忠清南北道）</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=36&no=206"
-                        >釜山‧大邱（慶尚南北道‧全羅南北道）</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=36&no=211"
-                        >濟州島</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="javascript:;"
-                    >中國<i class="fas fa-chevron-right"></i
-                  ></a>
-                  <ul class="m_ul_inner">
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=37&no=95"
-                        >專列鐵道旅遊(新東方快車)</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=37&no=14"
-                        >青藏高原鐵路(西藏)</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=37&no=37"
-                        >長江三峽郵輪</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=37&no=16"
-                        >華東(浙江.江蘇.上海.安徽)</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=37&no=19"
-                        >華南(廣西.海南島.江西.福建.小三通)</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=37&no=89"
-                        >華西(四川.重慶.貴州.雲南.湖南)</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=37&no=15"
-                        >華北(北京.河北.天津.山東.山西)</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=37&no=17"
-                        >華中(河南.陝西.湖北)</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=37&no=35"
-                        >西北(絲路.甘肅.青海)</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=37&no=36"
-                        >邊彊(新彊.內蒙古.寧夏)</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=37&no=34"
-                        >東北(遼寧.吉林.黑龍江)</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=37&no=97"
-                        >跨國(外蒙古.貝加爾湖.海參威.北朝鮮)</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=37&no=96"
-                        >香港‧澳門‧廣東</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="javascript:;"
-                    >河輪<i class="fas fa-chevron-right"></i
-                  ></a>
-                  <ul class="m_ul_inner">
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=42&no=126"
-                        >東歐</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=42&no=127"
-                        >西歐</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=42&no=128"
-                        >南歐</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=42&no=129"
-                        >北歐</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="javascript:;"
-                    >東南亞<i class="fas fa-chevron-right"></i
-                  ></a>
-                  <ul class="m_ul_inner">
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=32&no=172"
-                        >越南</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=32&no=203"
-                        >汶萊</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=32&no=137"
-                        >馬來西亞</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=32&no=134"
-                        >印尼（巴里島．民丹島）</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=32&no=130"
-                        >泰國（普吉島．清邁）</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=32&no=131"
-                        >菲律賓（宿霧．巴拉望．長灘島）</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=32&no=133"
-                        >新加坡</a
-                      >
-                    </li>
-                    <li>
-                      <a href="/podcast/podcast_inner.aspx?aid=32&no=132"
-                        >緬甸</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+ul.drop-down-menu > li {
+	float: left; 
+}
 
-      <!-- JQ -->
-      <script src="./js/jquery-1.12.4.min.js"></script>
-      <!-- menu -->
-      <script type="text/javascript" src="./js/menu.js"></script>
-      <!-- owl -->
-      <script src="./js/owl.carousel.min.js"></script>
-      <!-- flatpickr -->
-      <script src="./js/flatpickr.js"></script>
-      <!-- 讓picture能在ie執行 -->
-      <script src="./js/picturefill.min.js"></script>
-      <!-- tab -->
-      <script src="./js/jquery.easyTabs.js"></script>
-      <script src="./js/simpletab.js"></script>
-      <!-- Pushy JS -->
-      <script src="./js/pushy.min.js"></script>
-      <!-- js -->
-      <script src="./js/index_2020.js"></script>
-      <!-- 彈跳視窗 -->
-      <script src="./js/Popup.js"></script>
-    </form>
-  </body>
-</html>
+.drop-menu {
+	color: #fff;
+	font-size: 14px;
+    font-weight: 400;
+    font-family: "Noto Sans TC", "微軟正黑體", Arial, sans-serif;
+    background-color: #ce2222;
+	border-radius: 5px;
+	line-height: 20px;
+	overflow: hidden;
+	padding: 0.5rem 1rem 0.6rem;
+    margin-top: 5px;
+	position: relative;
+	text-transform: uppercase;
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease;
+	z-index: 1;
+}
+
+.drop-menu:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.drop-menu:before {
+	background-color: #ffffff;
+	content: "";
+	height: 100%;
+	opacity: 0.2;
+	position: absolute;
+	right: -15px;
+	top: 0;
+	width: 35px;
+	z-index: -1;
+	-webkit-transform: skewX(-22deg);
+	transform: skewX(-22deg);
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.drop-menu:hover:before {
+    background-color: #3f0505;
+	opacity: 1;
+	right: 0;
+	-webkit-transform: skewX(0deg);
+	transform: skewX(0deg);
+	width: 100%;
+}
+
+.select-w {
+	width: 100%;
+}
+
+.mobile-menu .select-w {
+	width: 20%;
+}
+
+
+
+/*  機+酒  */
+.nav_flex{
+    display: flex!important;
+}
+
+.card ul {
+    overflow: hidden;
+    position: relative;
+    padding: 0 0 0 5px;
+    margin: 0;
+    min-width: 5rem;
+    font-size: 16px;
+    height:18px;
+  }
+  
+  .card ul li {
+    display: block;
+    height: 100%;
+    color: #f8ffd1;
+    animation: rotate-the-words 6s infinite;
+  }
+
+@keyframes rotate-the-words {
+    10% {
+      transform: translateY(-112%);
+    }
+    25% {
+      transform: translateY(-100%);
+    }
+    35% {
+      transform: translateY(-212%);
+    }
+    50% {
+      transform: translateY(-200%);
+    }
+    60% {
+      transform: translateY(-312%);
+    }
+    75% {
+      transform: translateY(-300%);
+    }
+    85% {
+      transform: translateY(-412%);
+    }
+    100% {
+      transform: translateY(-400%);
+    }
+}
+  
+
+/* 國外旅遊 選單展開 */
+.sub_menu_box {
+    padding: 20px 5px;
+}
+
+.sub_menu{
+    margin-top: 25px;
+    background-color: #fffffff6;
+    width: 85%;
+    left: 8%;
+}
+
+.sub_sub_menu_wrap {
+    opacity: 0;
+    visibility: hidden;
+    height: auto;
+    overflow: hidden;
+    transition: opacity 0.7s, visibility 0.3s, height 0.3s;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    transform: translate(-50%, 0);
+    left: 50%;
+    top: 100%;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+    background-color: #ffffffdc;
+    border-top: 1px solid  #d1d1d1;
+    width: 100%;
+}
+
+.sub_menu_list_w{
+    width: 25%;
+}
+
+.sub_menu_list_w2{
+    width: 16%;
+}
+
+.nav_box .sub_menu .sub_menu_box:first-child .sub_sub_menu_wrap.active {
+    min-height: 420px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.nav_box .sub_menu .sub_menu_box .sub_sub_menu_wrap.active {
+    min-height: 420px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.sub_menu_title span {
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-decoration: none;
+    background-color: #bf1434;
+    border-radius: 5px;
+    transition: 0.3s;
+    padding: 10px 13px;
+    white-space:nowrap;
+}
+
+.sub_menu_title span.active{
+    background-color: #fff;
+    border: 1px solid #bf1434;
+    color: #bf1434;
+    padding: 10px 13px;
+}
+
+.lane{
+    font-size: 20px;
+    font-weight: 700 !important;
+    color: #bf1434;
+}
+
+.lane::after{
+    display: none;
+}
+
+.nav_box li a{
+    line-height: 25px;
+    white-space:nowrap;
+}
+
+.nav_box li a:hover {
+    color: rgb(225, 41, 76);
+    font-weight: 700;
+}
+
+
+.two_column{
+    flex-direction:none;
+    display: block !important;
+}
+
+.lane-w li{
+    width: 45%;
+}
+
+.sub_menu_subtitle{
+font-size: 15px;
+color: #717070;
+white-space: nowrap;
+}
+
+.user-font{
+    font-size: 16px;
+    font-weight: 600 !important;
+
+    -webkit-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+}
+
+.user-font:hover {
+    font-weight: 800 !important;
+}
+
+.fa-s{
+    font-size: 20px !important;
+    padding-top: 10px;
+}
+
+.fa-long-arrow-righ{
+    padding-right: 2px;
+}
+
+.laned-flex2{
+    display: flex!important;
+}
+
+/*   iphone  */
+.bars{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+/*   固定  */
+.d-flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.w-60,
+.sub_menu_w{
+    width: 75%;
+}
+
+.w-31{
+    width: 31%;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.px-3 {
+	padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+.px-5 {
+	padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
+
+.pl-8{
+    padding-left: 8px;
+}
+
+
+/*   @media  width  */
+@media (min-width: 992px) { 
+    .laned-flex{
+        display: flex !important;
+    }
+}
+
+@media (min-width: 1400px) { 
+    /* banner */
+    .banner-pt {
+        margin-top: 16px !important;
+    }
+    /* banner  end*/
+    .w-71{
+        width: 88%;
+    }
+    
+}
+
+@media (min-width: 1920px) { 
+    .w-71{
+        width: 71%;
+    }
+
+    .sub_menu_list_w{
+        width: 19%;
+    }
+
+    .w-60,
+    .sub_menu_w{
+    width: 60%;
+    }
+}
+
+
+
+/*   @media  max  */
+
+@media (max-width: 1499.98px){
+    .icontext {
+		padding-left: 15px;
+	}
+    .ul.drop-down-menu a {
+		font-size: 14px;
+	}
+
+    .sub_menu_list_w {
+        width: auto;
+    }
+
+    .w-60, .sub_menu_w {
+        width: 80%;
+    }
+
+    .w-71{
+        width: 80%;
+    }
+    
+}
+
+@media (max-width: 1399.98px) { 
+    .headwe-container {
+        width: 95vw;
+    }
+
+    .sub_menu{
+        width: 100%;
+        left: 0;
+    }
+
+    .sub_menu_box {
+        padding: 20px 5px;
+        margin: auto;
+    }
+
+    .main-banner{
+        padding-top: 125px;
+    }
+}
+
+@media (max-width: 1199.98px) { 
+    .headwe-container {
+        width: 98vw;
+    }
+    .nav-container{
+        width: 50vw;
+    }
+
+    .pr-3 {
+        padding-right: 3rem !important;
+     }
+    
+    .pl-3 {
+        padding-left: 3rem !important;
+    }
+
+    .sub_menu_title span,
+    .sub_menu_title span.active {
+        font-size: 14px;
+        white-space: nowrap;
+        padding: 8px 6px;
+    }
+    
+    .nav_box {
+        padding: 15px 0;
+        margin: 0 1.8rem;
+    }
+
+    .sub_menu_list{
+        display: grid;
+        padding: 0 50px;
+    }
+
+    .sub_menu_45{
+         width: 45%;
+    }
+
+    .sub_menu_38{
+        width: 38%;
+   }
+
+    .sub_menu_title.sub_menu_title_open + .sub_sub_menu_wrap .sub_menu_list li {
+        line-height: 23px;
+        padding-top: 0;
+    }
+
+    .sub_menu{
+        width: 100%;
+        left: 0;
+        margin-top: 10px;
+    }
+
+    .sub_sub_menu_wrap {
+        width: 100vw;
+    }
+
+    .nav_box .sub_menu .sub_menu_box:first-child .sub_sub_menu_wrap.active {
+        min-height: 650px;
+    }
+
+    .lane {
+        margin-bottom: 8px;
+    }
+
+    .sub_menu_w{
+        width: 90%;
+    } 
+
+    .logo-w {
+        width: 70%;
+        margin: 10px 0 0 -6px;
+    }
+
+    .pushy-mobileShow {
+        display: block;
+    }
+    .pushy-pt{
+        padding-top: 103px;
+    }
+
+    .nav_box li a{
+        line-height: 20px;
+    }
+    
+    .user-px {
+        font-size: 16px;
+        text-align: center;
+        padding: 10px 25px 15px 20px;
+    }
+
+    .fa-user{
+        padding-right: 5px;
+    }
+
+    .btn-style-one {
+		padding: 0.6rem 2.5rem 0.6rem ;
+	}
+	.icontext-title {
+		font-size: 14px;
+	}
+    
+    .social-bg{
+        padding: 0;
+    }
+    .drop-menu {
+        padding: 0.4rem 1rem ;
+    }
+
+    .header-link {
+        padding: 5px 0;
+    }
+
+    .main-banner{
+        padding-top: 110px;
+    }
+
+    .card ul li {
+        width: 70px;
+    }
+}
+
+
+@media (max-width: 991.98px) { 
+    .nav_box {
+         margin: 0 1.5rem;
+         padding: 10px 0;
+    }
+
+    .nav_box .nav_boxtitle,
+    .nav-title {
+        font-size: 15px;
+    }
+
+    .card ul {
+        font-size: 14px;
+        padding: 1px 0px 0px 5px;
+    }
+
+    header#header{
+        background-color: #717070;
+    }
+
+    .sub_menu_title span,
+    .sub_menu_title span.active{
+        font-size: 13px;
+        padding: 7px 4px ;
+    }
+
+    .sub_menu_box{
+        padding: 7px 5px;
+    }
+
+    .sub_menu_wrap {
+        padding: 0 10px;
+    }
+
+
+    .sub_menu_90{
+        width: 90%;
+    }
+
+    .logo-w {
+        margin: 15px 0 0 -6px;
+    }
+
+    #top-menu {
+        padding: 5px 0 4px;
+    }
+
+    .menu-pc .add-high {
+        height: 40px;
+    }
+
+    .card ul li {
+        width: 62px;
+    }
+}
+
+
+@media (max-width: 881.98px){
+    .nav_box {
+           margin: 0 0.8rem;
+    }
+
+    .sub_menu_box{
+        padding: 7px 4px;
+    }
+}
+
+@media (max-width:768px) {
+    #main-banner, .main-banner .item img {
+        height: auto;
+    }
+
+    .logo-w {
+        width: 70%;
+        margin: 8px 0;
+    }
+
+    .main-banner {
+        padding-top: 100px !important;
+    }
+
+    header#header{
+        height: 100px!important;
+    }
+    .pushy-pt{
+        padding-top: 20px;
+    }
+    
+    .header-link{
+        background-color: #8c001a;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        position: relative;
+        z-index: 9999;
+        height: 60px;
+    }
+
+    #top-menu,
+    nav#nav {
+        display: none!important;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+	.contact-section .outer-box {
+		margin-top: 0;
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	.contact-section .outer-box {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+    #logo-m {
+        padding: 10px 0;
+    }
+    
+    .menu-btn {
+        background-color: #8c001a!important;
+        color: #ffffff!important;
+        font-size: 1.5rem;
+        margin-top: 3px!important;
+        margin-right: 20px;
+        margin-left: auto;
+    }
+
+    header#header {
+     background-color: transparent;
+    }
+}
+
