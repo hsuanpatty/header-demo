@@ -517,16 +517,16 @@ white-space: nowrap;
     
 }
 
-@media (min-width: 1600px) { 
-    .sub_menu_list_w{
-        width: 19%;
-    }
-
+@media (min-width: 1920px) { 
     .w-71{
         width: 71%;
     }
-    
+
+    .sub_menu_list_w{
+        width: 19%;
+    }
 }
+
 
 
 /*   @media  max  */
