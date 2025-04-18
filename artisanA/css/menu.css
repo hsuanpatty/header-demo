@@ -191,22 +191,17 @@
     padding: 0 30px;
     /*width: 150px;*/
 }
+
 .sub_menu_list li {
     padding: 0.3rem;
     box-sizing: border-box;
     position: relative;
     color: #404040;
+    letter-spacing: 0.12rem;
     transition: color 0.5s ease;
 }
 
-/* .nav_box .sub_menu .sub_menu_box:first-child .sub_sub_menu_wrap {
-  visibility: hidden;
-  overflow: hidden;
-  opacity: 0;
-  height: 0;
-  
-} */
-/* .sub_sub_menu_wrap:hover, */
+
 .nav_box
     .sub_menu
     .sub_menu_box
