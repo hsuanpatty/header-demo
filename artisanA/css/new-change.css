@@ -525,6 +525,14 @@ white-space: nowrap;
     .ul.drop-down-menu a {
 		font-size: 14px;
 	}
+
+    .sub_menu_list_w {
+        width: auto;
+    }
+
+    .w-60, .sub_menu_w {
+        width: 80%;
+    }
 }
 
 @media (max-width: 1399.98px) { 
