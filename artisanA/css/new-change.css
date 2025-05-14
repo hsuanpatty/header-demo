@@ -1,7 +1,3 @@
-body::-webkit-scrollbar {
-    display: none;
-}
-
 .headwe-container {
     width: 86vw;
     max-width: 1200px;
@@ -48,7 +44,7 @@ body::-webkit-scrollbar {
     color: #ffffff;
     font-size: 16px;
     font-weight: 500;
-    font-family: "Noto Sans TC", 微軟正黑體, Arial, sans-serif;
+    font-family: "Noto Sans TC", Arial, sans-serif;
     letter-spacing: 0.2rem;
     white-space: nowrap;
 }
@@ -147,7 +143,7 @@ body::-webkit-scrollbar {
 .icontext-title {
 	font-size: 16px;
 	font-weight: 500;
-    font-family: "Noto Sans TC", "微軟正黑體", Arial, sans-serif;
+    font-family: "Noto Sans TC", Arial, sans-serif;
 	white-space: nowrap;
 }
 
@@ -192,7 +188,7 @@ body::-webkit-scrollbar {
 }
 
 .social-icon-one li a:hover {
-	color: #3f0505;
+	color: #ce2222;
 }
 
 /*  會員專區 */
@@ -218,7 +214,7 @@ ul.drop-down-menu > li {
 	color: #fff;
 	font-size: 14px;
     font-weight: 400;
-    font-family: "Noto Sans TC", "微軟正黑體", Arial, sans-serif;
+    font-family: "Noto Sans TC", Arial, sans-serif;
     background-color: #ce2222;
 	border-radius: 5px;
 	line-height: 20px;
@@ -344,12 +340,10 @@ ul.drop-down-menu > li {
     justify-content: center;
     flex-wrap: wrap;
     height: 0;
-    overflow: hidden;
     position: absolute;
     transform: translate(-50%, 0);
     left: 50%;
     top: 100%;
-
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 
     background-color: #ffffffdc;
@@ -365,14 +359,13 @@ ul.drop-down-menu > li {
     width: 16%;
 }
 
-.nav_box .sub_menu .sub_menu_box:first-child .sub_sub_menu_wrap.active {
-    min-height: 420px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-}
 
+
+.nav_box .sub_menu .sub_menu_box:first-child .sub_sub_menu_wrap.active,
 .nav_box .sub_menu .sub_menu_box .sub_sub_menu_wrap.active {
+    height: max-content;
     min-height: 420px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    opacity: 1;
 }
 
 .sub_menu_title span {
@@ -382,6 +375,7 @@ ul.drop-down-menu > li {
     text-decoration: none;
     background-color: #bf1434;
     border-radius: 5px;
+      border: 1px solid #bf1434;
     transition: 0.3s;
     padding: 10px 13px;
     white-space:nowrap;
@@ -391,7 +385,6 @@ ul.drop-down-menu > li {
     background-color: #fff;
     border: 1px solid #bf1434;
     color: #bf1434;
-    padding: 10px 13px;
 }
 
 .lane{
@@ -406,6 +399,7 @@ ul.drop-down-menu > li {
 
 .nav_box li a{
     line-height: 25px;
+    font-weight: 500;
     white-space:nowrap;
 }
 
